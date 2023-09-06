@@ -14,7 +14,7 @@ public class CamMove : MonoBehaviour
     //6-Kameranýn hýzlanmasýný saðlamak için hýz ile hýzlanma deðerini çarpýp hýz deðiþkenine tekrardan atalým.
     //7-Hýzýmýz maxHýz deðerini geçmesin diye if ile kontrol edicez.
     float hiz, hizlanma, maxHiz;
-    bool hareketDurumu;//default deðeri false
+    bool hareketDurumu=true;//default deðeri false
     void Start()
     {
         //1.basamak
