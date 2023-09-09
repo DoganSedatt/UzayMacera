@@ -166,6 +166,7 @@ GameObject:
   - component: {fileID: 298043837}
   - component: {fileID: 298043839}
   - component: {fileID: 298043838}
+  - component: {fileID: 298043840}
   m_Layer: 0
   m_Name: OyunArkaplan (1)
   m_TagString: Untagged
@@ -250,6 +251,18 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &298043840
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 298043836}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c485c2e950292c848b4e8d16071940b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &519420028
 GameObject:
   m_ObjectHideFlags: 0
@@ -357,6 +370,7 @@ GameObject:
   - component: {fileID: 1289587866}
   - component: {fileID: 1289587865}
   - component: {fileID: 1289587864}
+  - component: {fileID: 1289587867}
   m_Layer: 0
   m_Name: OyunArkaplan
   m_TagString: Untagged
@@ -441,3 +455,15 @@ Transform:
   m_Father: {fileID: 23412276}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1289587867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1289587863}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c485c2e950292c848b4e8d16071940b2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
